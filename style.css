@@ -106,5 +106,46 @@
     font-weight: bold;
 }
 
+.nv-br {
+    background: white;
+    color: (0, 0, 0);
+    padding: 20px;
+    font-family: sans-serif;
+}
 
+.nv-br .imgg {
+    height: 45px;
+    float: left;
+}
+
+.mnu-right {
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    margin: 8px;
+    list-style: none;
+    font-size: 11px;
+    margin-right: 10%;
+    color: #00000080;
+}
+
+.spn {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .spn {
+        display: block;
+    }
+    ul li {
+        display: block;
+    }
+    ul {
+        display: none;
+    }
 }
