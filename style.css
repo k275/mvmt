@@ -124,10 +124,10 @@
 
 ul li {
     display: inline-block;
-    margin: 8px;
+    margin: 12px;
     list-style: none;
     font-size: 11px;
-    margin-right: 10%;
+    
     color: #00000080;
 }
 
